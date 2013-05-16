@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: herokutest_development
+  pool: 5
+  username: postgres
+  password: olhodeheron
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: herokutest_test
+  pool: 5
+  username: postgres
+  password: olhodeheron
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: herokutest_production
+  pool: 5
+  username: postgres
+  password: olhodeheron
